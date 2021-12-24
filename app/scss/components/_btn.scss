@@ -1,0 +1,16 @@
+.btn {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: var(--line-height);
+  padding: 1.5rem 0;
+  background-color: var(--clr-brightBlue);
+  color: var(--clr-white);
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--box-shadow-btn);
+  border-radius: var(--box-shadow-btn);
+}
+
+.btn:hover {
+  background-color: var(--clr-desaturatedBlue);
+}
