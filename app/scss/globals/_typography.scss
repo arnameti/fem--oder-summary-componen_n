@@ -4,19 +4,20 @@ body {
   color: var(--clr-desaturatedBlue);
 }
 
+h1 ,h2 {
+  line-height: var(--line-height);
+  color: var(--clr-darkBlue);
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
 h1 {
- font-size: 2.2rem;
- line-height: var(--line-height);
- color: var(--clr-darkBlue);
- font-weight: 900;
- margin-bottom: 1.6rem;
+  font-size: 2.2rem;
+  margin-bottom: 1.6rem;
 }
 
 h2 {
   font-size: 1.4rem;
-  line-height: var(--line-height);
-  color: var(--clr-darkBlue);
-  font-weight: 900;
   margin-bottom: 0.3rem;
 }
 
@@ -25,9 +26,9 @@ h2 {
     font-size: 2.7rem;
     margin-bottom: 1.7rem;
   }
-  
+
   h2 {
     font-size: 1.6rem;
     margin-bottom: 0.6rem;
-   }
+  }
 }
