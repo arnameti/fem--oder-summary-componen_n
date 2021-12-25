@@ -1,4 +1,5 @@
 .btn {
+  display: block;
   font-size: 1.5rem;
   font-weight: 900;
   line-height: var(--line-height);
@@ -8,9 +9,28 @@
   width: 100%;
   text-align: center;
   box-shadow: var(--box-shadow-btn);
-  border-radius: var(--box-shadow-btn);
+  border-radius: var(--border-radius-btn);
+  transition: var(--transition);
+  cursor: pointer;
 }
 
 .btn:hover {
-  background-color: var(--clr-desaturatedBlue);
+  background-color: var(--clr-btn-hover);
+}
+
+.btn-small {
+  font-family: var(--ff-primary);
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: var(--line-height);
+  color: var(--clr-desaturatedBlue);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn-small:hover {
+  color: var(--clr-darkBlue);
 }

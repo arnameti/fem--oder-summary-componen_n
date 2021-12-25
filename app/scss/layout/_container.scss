@@ -1,8 +1,12 @@
 .container {
+  display: grid;
+  place-items: center;
+
   height: 90rem;
-  width: 95vw;
+  width: 100vw;
   max-width: 140rem;
 
-  background: url("../images/pattern-background-desktop.svg"), var(--clr-paleBlue);
-  background-repeat: no-repeat; 
+  background: url("../images/pattern-background-desktop.svg"),
+    var(--clr-paleBlue);
+  background-repeat: no-repeat;
 }
